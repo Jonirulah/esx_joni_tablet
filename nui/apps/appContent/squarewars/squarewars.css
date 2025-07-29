@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root,
+html,
+body {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: auto;
+	-moz-text-size-adjust: 100%;
+	font: 400 normal 14px/1.2 Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	background-color: white;
+	color: black;
+	overflow: hidden;
+}

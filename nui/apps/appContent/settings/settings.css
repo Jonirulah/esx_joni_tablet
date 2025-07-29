@@ -1,0 +1,413 @@
+@font-face {
+  font-family: "BALLSONTHERAMPAGE";
+  src: url(assets/TheLedDisplaySt.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+}
+
+html {
+  overflow: hidden !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+p {
+  font-size: 23px;
+  color: black;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  align-content: center;
+  background: url(assets/bg.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.svg {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  background-color: #FFF;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#svg {
+  display: flex;
+  margin: auto;
+  fill: #0057B8;
+}
+#svg path:nth-child(1) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+#svg path:nth-child(1):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(2) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+#svg path:nth-child(2):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(3) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+#svg path:nth-child(3):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(4) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+#svg path:nth-child(4):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(5) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+#svg path:nth-child(5):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(6) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+#svg path:nth-child(6):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(7) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+#svg path:nth-child(7):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(8) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+#svg path:nth-child(8):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(9) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+#svg path:nth-child(9):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(10) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+#svg path:nth-child(10):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(11) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+#svg path:nth-child(11):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(12) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+#svg path:nth-child(12):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(13) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+#svg path:nth-child(13):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(14) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+#svg path:nth-child(14):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(15) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+#svg path:nth-child(15):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(16) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+#svg path:nth-child(16):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(17) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+#svg path:nth-child(17):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#svg path:nth-child(18) {
+  -webkit-animation: pweek 1.8s linear infinite;
+          animation: pweek 1.8s linear infinite;
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+#svg path:nth-child(18):hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes pweek {
+  0% {
+    fill: #0057B8;
+  }
+  20% {
+    fill: #F11E4A;
+  }
+  40% {
+    fill: #F8A527;
+  }
+  60% {
+    fill: #266D7F;
+  }
+  80% {
+    fill: #82A;
+  }
+  100% {
+    fill: #0057B8;
+  }
+}
+
+@keyframes pweek {
+  0% {
+    fill: #0057B8;
+  }
+  20% {
+    fill: #F11E4A;
+  }
+  40% {
+    fill: #F8A527;
+  }
+  60% {
+    fill: #266D7F;
+  }
+  80% {
+    fill: #82A;
+  }
+  100% {
+    fill: #0057B8;
+  }
+}
+
+.window {
+  visibility: hidden;
+  height: 75%;
+  width: 65%;
+  border: 4px solid #222;
+  display: inline-block;
+  position: absolute;
+  left: 15%;
+  top: 5px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #444;
+  border-top: 20px solid #222;
+}
+
+.loading-text {
+  color: rgb(255, 255, 255);
+  font-family: 'BALLSONTHERAMPAGE';
+  font-size: 1.25vw;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.loading-spinner {
+  height: 5vh;
+}
+
+.loading-text-div {
+  width: 100vw;
+  height: 125px;
+  bottom: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.separator {
+  width: 75%;
+  height: 0.5%;
+  background-color: white;
+  display: flex;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  font-family: "Poppins";
+  width: 100%;
+}
+
+.app-title {
+  height: 16%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-text {
+  font-size: 3vw;
+  font-family: "Teko";
+}
+
+.content > h4 {
+  letter-spacing: 1px;
+}
+
+a.background-btn{
+  height: 3vh;
+  width: auto;
+  background: linear-gradient(to right,#196BCA ,#6433E0);
+  background-color: #196BCA;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 1.2vw;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  padding: 0.35vw 0.5vw;
+  border: 0px solid #000;
+  border-radius: 0.8vw;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ a.background-btn span{
+  display: block;
+  width: auto;
+  padding-left: 2.5vw;
+  height: 100%;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiPg0KICA8ZGVmcz4NCiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aCI+DQogICAgICA8cmVjdCB4PSItNCIgeT0iLTI1IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgZmlsbD0ibm9uZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogICAgPGNsaXBQYXRoIGlkPSJjbGlwLXBhdGgtMiI+DQogICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzEiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDEiIHdpZHRoPSIxNDIiIGhlaWdodD0iMTAwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4zMzMgOS4xMjgpIiBmaWxsPSJub25lIi8+DQogICAgPC9jbGlwUGF0aD4NCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjAuOTg2IiB5MT0iMC41MDciIHgyPSItMC4wMjgiIHkyPSIwLjUyMiIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTMxIiBzdG9wLWNvbG9yPSIjZDlkOWQ5Ii8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9ImdyYXkiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTIiIHgxPSIwLjk4NiIgeTE9IjAuNDkzIiB4Mj0iLTAuMDI4IiB5Mj0iMC40NzgiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz4NCiAgPC9kZWZzPg0KICA8ZyBpZD0iU2Nyb2xsX0dyb3VwXzEiIGRhdGEtbmFtZT0iU2Nyb2xsIEdyb3VwIDEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQgMjUpIiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoKSIgc3R5bGU9Imlzb2xhdGlvbjogaXNvbGF0ZSI+DQogICAgPGcgaWQ9ImxvZ28tdyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwLjMzMyAtOS4xMjgpIiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoLTIpIj4NCiAgICAgIDxnIGlkPSJHcm91cF80MCIgZGF0YS1uYW1lPSJHcm91cCA0MCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC45NDEgNC40ODkpIj4NCiAgICAgICAgPGcgaWQ9Ikdyb3VwXzM4IiBkYXRhLW5hbWU9Ikdyb3VwIDM4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuMDAxKSI+DQogICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZV82MyIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgNjMiIHdpZHRoPSI3NS44ODciIGhlaWdodD0iMjUuMjk2IiByeD0iMTIuNjQ4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxOC4wMzMgMzcuMjI1KSByb3RhdGUoNDUpIiBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiLz4NCiAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzY0IiBkYXRhLW5hbWU9IlJlY3RhbmdsZSA2NCIgd2lkdGg9Ijc1Ljg4NyIgaGVpZ2h0PSIyNS4yOTYiIHJ4PSIxMi42NDgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNTMuNjYpIHJvdGF0ZSgtNDUpIiBmaWxsPSIjZmZmIi8+DQogICAgICAgICAgPGNpcmNsZSBpZD0iRWxsaXBzZV8xIiBkYXRhLW5hbWU9IkVsbGlwc2UgMSIgY3g9IjcuODQyIiBjeT0iNy44NDIiIHI9IjcuODQyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS4xMyA0NS4wODEpIiBmaWxsPSIjZDlkYmZmIi8+DQogICAgICAgIDwvZz4NCiAgICAgICAgPGcgaWQ9Ikdyb3VwXzM5IiBkYXRhLW5hbWU9Ikdyb3VwIDM5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MC4wNzkgMCkiPg0KICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNjMtMiIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgNjMiIHdpZHRoPSI3NS44ODciIGhlaWdodD0iMjUuMjk2IiByeD0iMTIuNjQ4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MS41NDcgNTUuMTEyKSByb3RhdGUoMTM1KSIgZmlsbD0idXJsKCNsaW5lYXItZ3JhZGllbnQtMikiLz4NCiAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzY0LTIiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDY0IiB3aWR0aD0iNzUuODg3IiBoZWlnaHQ9IjI1LjI5NiIgcng9IjEyLjY0OCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTMuODA3IDcxLjU0Nykgcm90YXRlKC0xMzUpIiBmaWxsPSIjZmZmIi8+DQogICAgICAgICAgPGNpcmNsZSBpZD0iRWxsaXBzZV8xLTIiIGRhdGEtbmFtZT0iRWxsaXBzZSAxIiBjeD0iNy44NDIiIGN5PSI3Ljg0MiIgcj0iNy44NDIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ0Ljg4IDQ1LjA4MikiIGZpbGw9IiNkOWRiZmYiLz4NCiAgICAgICAgPC9nPg0KICAgICAgPC9nPg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+DQo=);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(0deg);
+ }
+
+ a.background-btn:hover{
+  background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+  background-color: #5482d0;
+ }
+ 
+ a.background-btn:active{
+  transform: scale(0.95);
+ }
+
+.grid {
+  width: 87.5%;
+  left: 12.5%;
+  text-align: left;
+  position: absolute;
+}
+
+.subtitle {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 1.5vw;
+}
+
+.subtitle2 {
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: 1.5vw;
+
+}
+
+.item {
+  padding-top: 0.5vh;
+  padding-bottom: 1.5vh;
+  font-size: 1.3vw;
+
+}
+
+.grid > span, a {
+  float: left;
+  clear: left;
+}
+
+body.swal2-toast-shown {
+  overflow-y: hidden;
+}

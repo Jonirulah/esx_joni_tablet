@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+        <link rel='stylesheet' href='style.css'>
+        <script src="libs/sweetalert2.all.js"></script>
+    </head>
+    <body>
+        <div id='app' data-app>
+            <div id='tablet' v-show='opened'>
+                <div class='tablet-container' id="tablet-container">
+                    <!-- NOTAS: Esta es la aplicación principal, no lo sacamos de aquí porque se rompe el Vue -->
+                    <div class='left-sidebar'>
+                        <p id="ingameTimer">16:42</span>
+                    </div>
+                    <div class='right-sidebar'>
+                        <div class="sma">
+                            <img src="img/internal/cell.svg" class="sm-icon"></img>
+                            <img src="img/internal/5g.svg" class="sm-icon"></img>
+                            <img src="img/internal/tiktok.svg" class="sm-icon"></img> <!-- Soy muy gracioso lo reconozco -->
+                            <img src="img/internal/battery.svg" class="sm-icon"></img> <!-- Soy muy gracioso lo reconozco -->
+                        </div>
+                    </div>
+                    <div class='page' id='main'>
+                        <div class='misc'>
+                            <div class='widget'>
+                                <p>{{ Calendar.day }}</p>
+                                <h1>{{ Calendar.numDay }} de <span class='capitalize'>{{ Calendar.month }}</span></h1>
+                                <h2 id="clockEventName">No hay eventos</h2>
+                                <h2 id="clockEventDescription"></h2>
+                            </div>
+                            <div class='crypto'>
+                                <h1>El Tiempo</h1>
+                                <div class="center weathercont">
+                                    <img id="currWeatherImg" src="img/weather/sunny.svg"></img>
+                                </div>
+                                <h2 id="currWeather"></h2>
+                                <h4>Mínima: <span id="minTemp"></span> / Máxima: <span id="maxTemp"></span></h4>
+                                    <h3 id="nextWeather"></h3>
+                            </div>
+                        </div>
+                        <div class='apps'>
+                            <div class='application' v-for='app in appList' @click='switchPage(app.id)'>
+                                <div class='content' v-bind:data-app-id='app.id'>
+                                    <img v-bind:src='app.icon' />
+                                </div>
+                                <h1>{{ app.name }}</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- NOTAS: El ID tiene que ser igual que el href del index.js -->
+                    <!-- NOTAS: Pendiente implementación con grupos de staff/jobs -->
+                    <div class="page" v-for="app in appList" :key="app.id" :external='app.external' :id="app.id" v-if="currentPage == app.id || pageStates[app.id]">
+                        <iframe v-if="currentPage == app.id || (pageStates[app.id])" :src="app.href" height="100%" width="100%" :id="'iframe-' + app.id" style="border: 0" frameborder="0" loading="eager" scrolling="yes"></iframe>
+                    </div>
+                </div>
+                <div class='tablet-footer'>
+                    <div class='line' v-on:click='switchPage("main")'></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src='https://unpkg.com/vue@2.7.16'></script>
+    <script src="tablet/soundPlayer.js"></script>
+    <script src='tablet/eventProcessor.js'></script>
+    <script src='tablet/internalEvents.js'></script>
+    <script src='tablet/notificationHandler.js'></script>
+    <script src='tablet/vueApp.js'></script>
+</html>

@@ -1,0 +1,18 @@
+["tablet"] = {
+    label = "Tablet",
+    imageurl = 'https://undefined',
+    weight = 100,
+    stack = true,
+    close = true,
+    add = function(remain)
+        if remain == 0 then
+            exports['joni_tablet']:hasTablet(true)
+        end
+    end,
+    remove = function(remain),
+        if remain == 0 then
+            exports['joni_tablet']:hasTablet(false)
+            exports['joni_tablet']:toggleTablet(false)
+        end
+    end
+},

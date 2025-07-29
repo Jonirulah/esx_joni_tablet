@@ -1,0 +1,15 @@
+/* Custom styles for the dashboard */
+.small-box {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.small-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.main-sidebar {
+    background-color: #1f1f1f;
+}

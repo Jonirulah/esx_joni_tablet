@@ -1,0 +1,45 @@
+[{
+        "id": "settings",
+        "name": "Ajustes",
+        "icon": "../apps/appIcon/settings.jpg",
+        "external": false,
+        "default": true,
+        "resourceName": "",
+        "description": "",
+        "jobRequirement": "",
+        "gradeRequirement": ""
+    },
+    {
+        "id": "quicknotes",
+        "name": "Notas rápidas",
+        "icon": "../apps/appIcon/quicknotes.jpg",
+        "external": false,
+        "default": true,
+        "resourceName": "",
+        "description": "",
+        "jobRequirement": "",
+        "gradeRequirement": ""
+    },
+    {
+        "id": "squarewars",
+        "name": "Square Wars",
+        "icon": "../apps/appIcon/squarewars.jpg",
+        "external": false,
+        "default": true,
+        "resourceName": "",
+        "description": "",
+        "jobRequirement": "",
+        "gradeRequirement": ""
+    },
+    {
+        "id": "stickhero",
+        "name": "Stick Hero",
+        "icon": "../apps/appIcon/stickhero.jpg",
+        "external": false,
+        "default": true,
+        "resourceName": "",
+        "description": "",
+        "jobRequirement": "",
+        "gradeRequirement": ""
+    }
+]
